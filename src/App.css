@@ -1,0 +1,269 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+.banner-bg {
+    background: #264653;
+    /* height: 700px; */
+}
+.nav-bg {
+  background: #00000000;
+}
+.nav-item p {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.banner-card {
+  color: #ffffffff;
+  margin: 50px 0px;
+}
+.banner-card {
+  padding: 40px 0px;
+}
+.banner-card .banner-title {
+  margin: 20px 0px 40px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+}
+.banner-card p {
+  color: #E0E0E0;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.banner-card .banner-text {
+  margin-bottom: 30px;
+  color: #E0E0E0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+.banner-img {
+  margin: 75px 0px;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+}
+.link {
+  text-decoration: none;
+}
+.logo-img {
+  height: 50px;
+  width: 50px;
+}
+.logo-img img {
+  height: 100%;
+  width: 100%;
+}
+.feturedBike, .news-section {
+  margin: 3rem 0rem;
+}
+.feturedBike .feturedBike-text {
+  color: #E76F51;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+}
+.fetureBike-allImages {
+  gap: 50px;
+  padding: 50px 0px;
+}
+.feturedBike-img {
+  width: 300px;
+}
+.feturedBike-img  img {
+  width: 100%;
+  height: 100%;
+}
+.section-title-one {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: center;
+}
+.text-2 {
+  color: #E76F51;
+}
+.card-img {
+  padding: 15px;
+}
+.card-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+.card-title {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+}
+.card-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color:#6C6C6C;
+}
+.userReview {
+  margin: 2rem 0rem;
+}
+.profile-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+}
+.description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+.stars {
+  color: #f4b400;
+  margin-bottom: 10px;
+}
+.star {
+  font-size: 18px;
+}
+.name {
+  font-size: 16px;
+  color: #007bff;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.profession {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+.questions {
+  margin: 4rem 0rem;
+}
+.questions-img {
+  width: 431.2px;
+  height: 423.5px;
+}
+.questions-img img {
+  height: 100%;
+}
+.questions-item {
+  gap: 50px;
+}
+.card {
+  border-radius: 10px;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer {
+  background-color: #0B0D17;
+  padding: 40px 0;
+  color: #ffffffff;
+}
+.footer-part-one p {
+  margin: 20px 0;
+}
+.footer-part-one .footer-option {
+  display: flex;
+  gap: 15px;
+}
+.footer-part-one .footer-option p {
+  cursor: pointer;
+}
+.footer-part-second h3 {
+  margin-bottom: 10px;
+}
+.footer-img img {
+  width: 150px;
+  margin: 10px 0;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+  .d-flex {
+    flex-direction: column;
+  }
+  .fetureBike-allImages {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feturedBike-img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .questions-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-part-one {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column;
+  }
+  .footer-part-one, .footer-part-second {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .footer-img img {
+    width: 120px;
+  }
+  .footer-part-one .footer-option {
+    gap: 0px;
+  }
+  .fetureBike-allImages {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feturedBike-img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .feturedBike-img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .questions-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .questions-img img {
+    height: 90%;
+  }
+  .footer-part-one p,
+  .footer-part-second h3 {
+    font-size: 14px;
+  }
+  .footer-img img {
+    width: 100px;
+  }
+}
