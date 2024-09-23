@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Footer() {
   return (
     <div>
@@ -7,7 +8,7 @@ function Footer() {
         <div className="container">
           <div className="d-flex justify-content-between">
             <div className="footer-part-one">
-              <p>Download Now</p>
+              <p className="mt-2">Download Now</p>
               <div className="d-flex footer-option">
                 <p>About</p>
                 <p className="ml-6">Features</p>
