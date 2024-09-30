@@ -9,7 +9,7 @@ function NavSection() {
         <nav class="navbar navbar-expand-lg navbar-light nav-bg">
           <div class="container-fluid">
             <div className="logo-img">
-              <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/bike-logo-design-template-1a8112031db167f4a21b128f5b959ebe_screen.jpg?ts=1676691236" alt="" />
+              <img src="https://static.vecteezy.com/system/resources/previews/012/574/862/non_2x/biker-riding-motorcycle-logo-vector.jpg" alt="" />
             </div>
             <button
               class="navbar-toggler"
