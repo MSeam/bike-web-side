@@ -42,7 +42,7 @@ function News() {
       <SectionTitle firstTitleName={"Latest"} secondTitleName={"News"}/>
       <div className="container">
         <div className="row mt-5">
-          {data?.map((item) => (
+          {data?.slice(0, 3).map((item) => (
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
               <div className="mt-3">
                 <BikeCard itemData={item} />
