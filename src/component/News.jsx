@@ -28,6 +28,30 @@ function News() {
       imgURL:
         "https://ultimatemotorcycling.com/wp-content/uploads/2020/10/2021-Honda-CBR500R-ABS-Buyers-Guide-sport-motorcycle-3.jpg",
     },
+    {
+      id: 4,
+      title: "2021 Honda CBR500R",
+      document:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      imgURL:
+        "https://ultimatemotorcycling.com/wp-content/uploads/2020/10/2021-Honda-CBR500R-ABS-Buyers-Guide-sport-motorcycle-3.jpg",
+    },
+    {
+      id: 5,
+      title: "2021 Honda CBR500R",
+      document:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      imgURL:
+        "https://ultimatemotorcycling.com/wp-content/uploads/2020/10/2021-Honda-CBR500R-ABS-Buyers-Guide-sport-motorcycle-3.jpg",
+    },
+    {
+      id: 6,
+      title: "2021 Honda CBR500R",
+      document:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,fermentum amet faucibus sed id nisi lectus at.",
+      imgURL:
+        "https://ultimatemotorcycling.com/wp-content/uploads/2020/10/2021-Honda-CBR500R-ABS-Buyers-Guide-sport-motorcycle-3.jpg",
+    },
   ];
 
   const [data, setData] = useState(null);
